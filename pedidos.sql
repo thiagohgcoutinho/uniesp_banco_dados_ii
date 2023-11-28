@@ -94,6 +94,8 @@ CREATE TABLE Fornecedores (
   HomePage text NULL
 );
 
+SELECT * FROM Fornecedores WHERE Pais='Japão';
+
 
 CREATE TABLE Produtos (
   CodigoDoProduto INT identity(1,1) primary key,
